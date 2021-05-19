@@ -1,0 +1,122 @@
+/* Styling for lab1 */
+body {
+  background-color: #94d2a4;
+}
+
+h1 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 1.75em;
+}
+
+input {
+  margin: 10px 0;
+}
+
+label, p {
+  font-size: 12px;
+}
+
+.instructions-wrapper, footer {
+  text-align: center;
+}
+
+.instructions-text {
+	font-size: 14px;
+}
+
+.link-wrapper {
+  margin: 10px 0;
+}
+
+.img-link {
+  width: 400px;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.link-text-wrap {
+	display: block;
+}
+
+.site-link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.site-form {
+  margin: 0 40px;
+  border-bottom: 1px solid black;
+  /* border: 2px solid black; */
+  /* background-color: #2ca44c; */
+}
+
+.question-wrapper {
+  margin-bottom: 15px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.radioText {
+  margin: 2px 0;
+}
+
+.experienceSelect {
+  margin-top: 5px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 0;
+}
+
+a:hover {
+	color: blue;
+	font-weight: 700;
+}
+
+.img-anchor {
+	display: inline-block;
+	background: grey;
+}
+
+.img-anchor:hover .img-link {
+	opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+  label, p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .img-link {
+    width: 600px;
+    height: 300px;
+  }
+  .question-wrapper {
+    margin-bottom: 30px;
+  }
+  .site-link {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .site-form {
+	margin: 0 100px;
+  }
+  .answerWrapper, .radioTextWrapper {
+	display: flex;
+	justify-content: space-between;
+  }
+  .instructions-text {
+	  font-size: 18px;
+  }
+}
